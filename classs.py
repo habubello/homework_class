@@ -34,6 +34,7 @@ class foydalanuvchi:
         conn.commit()
         print('User has been successfully updated')
 
+    @staticmethod
     def show_users(self):
         show_query = """select * from users"""
         cur.execute(show_query)
